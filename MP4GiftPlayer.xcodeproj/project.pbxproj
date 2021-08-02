@@ -16,6 +16,9 @@
 		8A364FDF26B7BF8800301DA1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A364FDE26B7BF8800301DA1 /* main.m */; };
 		8A364FE926B7BF8800301DA1 /* MP4GiftPlayerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A364FE826B7BF8800301DA1 /* MP4GiftPlayerTests.m */; };
 		8A364FF426B7BF8900301DA1 /* MP4GiftPlayerUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A364FF326B7BF8900301DA1 /* MP4GiftPlayerUITests.m */; };
+		8A36500526B7C01A00301DA1 /* FUOpenGLView.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A36500126B7C01A00301DA1 /* FUOpenGLView.m */; };
+		8A36500626B7C01A00301DA1 /* FUVideoReader.m in Sources */ = {isa = PBXBuildFile; fileRef = 8A36500426B7C01A00301DA1 /* FUVideoReader.m */; };
+		8A36500826B7C58800301DA1 /* blindbox_puzzle_anim.mp4 in Resources */ = {isa = PBXBuildFile; fileRef = 8A36500726B7C58800301DA1 /* blindbox_puzzle_anim.mp4 */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +57,11 @@
 		8A364FEF26B7BF8800301DA1 /* MP4GiftPlayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MP4GiftPlayerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8A364FF326B7BF8900301DA1 /* MP4GiftPlayerUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MP4GiftPlayerUITests.m; sourceTree = "<group>"; };
 		8A364FF526B7BF8900301DA1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8A36500126B7C01A00301DA1 /* FUOpenGLView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FUOpenGLView.m; sourceTree = "<group>"; };
+		8A36500226B7C01A00301DA1 /* FUOpenGLView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FUOpenGLView.h; sourceTree = "<group>"; };
+		8A36500326B7C01A00301DA1 /* FUVideoReader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FUVideoReader.h; sourceTree = "<group>"; };
+		8A36500426B7C01A00301DA1 /* FUVideoReader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FUVideoReader.m; sourceTree = "<group>"; };
+		8A36500726B7C58800301DA1 /* blindbox_puzzle_anim.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = blindbox_puzzle_anim.mp4; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,6 +112,11 @@
 		8A364FCB26B7BF8700301DA1 /* MP4GiftPlayer */ = {
 			isa = PBXGroup;
 			children = (
+				8A36500726B7C58800301DA1 /* blindbox_puzzle_anim.mp4 */,
+				8A36500226B7C01A00301DA1 /* FUOpenGLView.h */,
+				8A36500126B7C01A00301DA1 /* FUOpenGLView.m */,
+				8A36500326B7C01A00301DA1 /* FUVideoReader.h */,
+				8A36500426B7C01A00301DA1 /* FUVideoReader.m */,
 				8A364FCC26B7BF8700301DA1 /* AppDelegate.h */,
 				8A364FCD26B7BF8700301DA1 /* AppDelegate.m */,
 				8A364FCF26B7BF8700301DA1 /* SceneDelegate.h */,
@@ -241,6 +254,7 @@
 			files = (
 				8A364FDC26B7BF8800301DA1 /* LaunchScreen.storyboard in Resources */,
 				8A364FD926B7BF8800301DA1 /* Assets.xcassets in Resources */,
+				8A36500826B7C58800301DA1 /* blindbox_puzzle_anim.mp4 in Resources */,
 				8A364FD726B7BF8700301DA1 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -267,9 +281,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				8A364FD426B7BF8700301DA1 /* ViewController.m in Sources */,
+				8A36500626B7C01A00301DA1 /* FUVideoReader.m in Sources */,
 				8A364FCE26B7BF8700301DA1 /* AppDelegate.m in Sources */,
 				8A364FDF26B7BF8800301DA1 /* main.m in Sources */,
 				8A364FD126B7BF8700301DA1 /* SceneDelegate.m in Sources */,
+				8A36500526B7C01A00301DA1 /* FUOpenGLView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
